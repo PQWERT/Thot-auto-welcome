@@ -31,7 +31,8 @@ client.on('message', message => { if (message.content === 'stop pinging me')
 { message.reply('no.'); } });  
  
 client.on('message', message => 
-{ if (message.content === 'E') { message.reply('MarkEplier' ); } });  
+{ if (message.content === 'E') 
+{ message.reply('MarkEplier' ); } });  
 
 client.on('message', message => 
 { if (message.content === 'who is the bitch here') 
