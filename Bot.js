@@ -10,7 +10,7 @@ client.on('message', message => { if (message.content === 'bruh')
 { message.reply('100'); } });  
 
 client.on('message', message => { if 
-(message.content === '@ThE THOT bOt#8950') 
+(message.content === '@ThE THOT bOt') 
 { message.reply('WHAT'); } });  
 
 client.on('message', message => { if 
