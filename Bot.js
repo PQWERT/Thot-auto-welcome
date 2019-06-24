@@ -62,6 +62,4 @@ client.on('guildMemberAdd', member => {
   channel.send(`Welcome to the Wastelands , ${member}`);
 });
 
-emitter.setMaxListeners(50)
-
 client.login(process.env.BOT_TOKEN);
