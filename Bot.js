@@ -35,7 +35,7 @@ client.on('message', message =>
 { message.reply('MarkEplier' ); } });  
 
 client.on('message', message => 
-{ if (message.content === 'who is the bitch here') 
+{ if (message.content === 'p!avatar') 
 { message.reply(message.author.avatarURL); } });  
 
 client.on('message', message => { if (message.content === 'your mom') 
